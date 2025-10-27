@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #a7b6ff; 
+    color: #222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+  }
+  .wrapper {
+    width: 450px;
+    padding: 30px;
+    background-color: #e7e8ff; 
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .create-form {
+    height: 40px;
+    width: 100%;
+    margin: 25px 0px;
+    border: 1px solid #7a7eff; 
+    display: flex;
+    background-color: #f7f7ff; 
+    border-radius: 5px;
+  }
+  .create-form > input {
+    outline: none;
+    border: none;
+    background: none;
+    color: #333;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+  }
+  .create-form > button {
+    border: none;
+    background-color: #7a7eff; 
+    color: white;
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background 0.3s;
+  }
+  .create-form > button:hover {
+    background-color: #5d5fff; 
+  }
+  .todo {
+    background-color: #c6cbff; /* 原深藍 → 改成柔和淡藍紫 */
+    height: 40px;
+    padding: 0 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #222;
+  }
+  .completed {
+    opacity: 0.6;
+    text-decoration: line-through 2px #555;
+  }
+  
